@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  animation: animate 0.75s;
+  animation-name: animate;
+}
+
+@keyframes animate {
+
+  from {opacity: 0;
+    transform: rotateY('-10deg');}
+
+  to {opacity: 1;
+    transform: rotateY('0');}
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }

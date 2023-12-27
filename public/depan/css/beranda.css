@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* beranda./*/
+.carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-inner img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  } 
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  .border-tentang {
+    border-radius: 25px;
+    box-shadow: 3px 4px 10px 3px rgb(48, 47, 47);
+  }
+  .featurette {
+    padding: 2.5rem;
+    margin: 1.5rem;
+  }
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @media screen and (max-width: 767px) {
+    .carousel-item {
+      background-size: contain; /* Atur ulang ukuran sesuai kebutuhan */
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-item {
+      background-size: cover; /* Atur ulang ukuran sesuai kebutuhan */
+    }
+  }
+
+ @media screen and (min-width: 992px) {
+  .carousel-item {
+    background-size: cover; /* Atur ulang ukuran sesuai kebutuhan */
+  }
+}
+
+  @media (max-width: 767px) { 
+    /* Tambahkan gaya CSS tambahan untuk tata letak carousel pada perangkat dengan lebar maksimum 767px */
+    .carousel-caption {
+      display: none; /* Sembunyikan caption pada perangkat berukuran kecil */
+    }
+    }
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  
+  /* ./beranda */
